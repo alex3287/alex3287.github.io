@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    border: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a {
+    color: #4d4d4d;
+    font-family: "Helvetica Neue Cyr - Thin";
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+main {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    color: #2e353d;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+main img {
+    width: 389px;
+    padding-bottom: 3%;
+}
+
+main p {
+    width: 693px;
+    height: 275px;
+    color: #242424;
+    font-family: "Roboto - Thin";
+    font-size: 24px;
+    font-weight: 400;
+    /* Text style for "" */
+    font-family: "Roboto Thin";
+    font-weight: 100;
+    /* Text style for "Добрый ден" */
+    font-family: "Roboto Thin";
+    font-weight: 100;
+    line-height: 36px;
+    /* Text style for "Василий Пу" */
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 36px;
+    /* Text style for "начинающий" */
+    font-family: "Roboto - Thin Italic";
+    font-weight: 100;
+    line-height: 36px;
+}
+
+main br {}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    background-color: #434445;
+}

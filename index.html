@@ -2,19 +2,118 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+
+    
+
     <header>
-        <h1>Hello world</h1>
+        <section class="hero is-success is-fullheight">
+            <!-- Hero head: will stick at the top -->
+            <div class="hero-head">
+              <header class="navbar">
+                <div class="container">
+                  <div class="navbar-brand">
+                    <a class="navbar-item">
+                      <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                    </a>
+                    <span class="navbar-burger" data-target="navbarMenuHeroC">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+                  </div>
+                  <div id="navbarMenuHeroC" class="navbar-menu">
+                    <div class="navbar-end">
+                      <a class="navbar-item is-active">
+                        Home
+                      </a>
+                      <a class="navbar-item">
+                        Examples
+                      </a>
+                      <a class="navbar-item">
+                        Documentation
+                      </a>
+                      <span class="navbar-item">
+                        <a class="button is-success is-inverted">
+                          <span class="icon">
+                            <i class="fab fa-github"></i>
+                          </span>
+                          <span>Download</span>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+          
+            <!-- Hero content: will be in the middle -->
+            <div class="hero-body">
+              <div class="container has-text-centered">
+                <p class="title">
+                  Сайт учителя информатики
+                </p>
+                <p class="subtitle">
+                  Анжеро-Судженск
+                </p>
+              </div>
+            </div>
+          
+            <!-- Hero footer: will stick at the bottom -->
+            <div class="hero-foot">
+              <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                  <ul>
+                    <li class="is-active"><a>Overview</a></li>
+                    <li><a>Modifiers</a></li>
+                    <li><a>Grid</a></li>
+                    <li><a>Elements</a></li>
+                    <li><a>Components</a></li>
+                    <li><a>Layout</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </section>
     </header>
+
     <main>
-        <section class="first">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima provident molestias quod dolore fuga molestiae magni repellat iste id natus minus quia vel aliquid veniam accusamus, doloremque quisquam sequi reprehenderit!</p>
-        </section>
+        <section class="section is-large">
+            <h1 class="title">Large section</h1>
+            <h2 class="subtitle">
+              A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+            </h2>
+          </section>
+
+          <section class="section is-large">
+            <h1 class="title">Large section</h1>
+            <h2 class="subtitle">
+              A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+            </h2>
+          </section>
+
+          <section class="section is-large">
+            <h1 class="title">Large section</h1>
+            <h2 class="subtitle">
+              A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+            </h2>
+          </section>
     </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>&#169;&#160;2022&#160;А.&#160;Мангазеев</strong> <br>
+            <img src="img/letter.gif" width="13" height="10" alt="конверт"> 
+            <a href="mailto:alex3287@bk.ru">alex3287@bk.ru</a>   
+          </p>
+        </div>
+      </footer>
 </body>
 </html>

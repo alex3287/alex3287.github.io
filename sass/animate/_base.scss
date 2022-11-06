@@ -1,33 +1,3 @@
-.logo {
-  font-weight: 700;
-  font-family: sans-serif;
-  color: #868b88;
-}
-
-.first_page {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.text {
-  align-content: center;
-  margin-bottom: 100px;
-  width: 500px;
-}
-
-.photo {
-  max-width: 60%;
-}
-
-@media (max-width: 500px) {
-  .text {
-    align-content: center;
-    margin-bottom: 100px;
-    max-width: 300px;
-  }
-}
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -78,4 +48,4 @@
     animation: unset !important;
     transition: none !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}

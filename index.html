@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Сайт учителя</title>
 </head>
 <body>
@@ -16,12 +19,13 @@
       <!-- is-success is-fullheight -->
         <section class="hero is-halfheight">
             <!-- Hero head: will stick at the top -->
-            <div class="hero-head">           
-              <header class="navbar">
+            <div class="hero-head mb-6">           
+              <header class="navbar is-fixed-top">
                 <div class="container">
                   <div class="navbar-brand">
                     <a class="navbar-item">
-                      <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                      <a class="navbar-item logo" href="#top">ИНФОРМАТИКА НА 5</a> 
+                      <!-- <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo"> -->
                     </a>
                     <span class="navbar-burger" data-target="navbarMenuHeroC">
                       <span></span>
@@ -53,22 +57,23 @@
             </div>
           
             <!-- Hero content: will be in the middle -->
-            <div class="hero-body">
-              <div class="container has-text-centered">
-                <div class="first_page">
-                  <div class="text">
-                    <p class="title">
+            <div class="hero-body mt-6">
+              <div class="container2 has-text-centered ">
+                <div class="columns is-1-mobile is-2-table is-vcentered">
+                  <div class="column ">
+                    <p class="title is-1 mb-6 wow animate__backInLeft">
                       Мангазеев Александр Юрьевич
                     </p>
-                    <p class="subtitle">
+                    <p class="subtitle is-3 wow animate__backInRight">
                       учитель высшей категории 
                     </p>
-                    <span class="subtitle">
-                      нетиповое муниципальное бюджетное общеобразовательное учреждение Анжеро-Судженского городского округа "Гимназия №11" 
-                    </span>
+                    <p data-wow-delay="0.4s" class="subtitle is-4 wow animate__backInUp">
+                      нетиповое муниципальное бюджетное общеобразовательное учреждение Анжеро-Судженского городского округа "Гимназия №11"  
+                    </p>
+                    
                   </div>
-                  <div class="photo">
-                     <img src="./img/hero/photo.png" alt="">
+                  <div class="column">
+                     <img src="./img/hero/photo.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -78,47 +83,56 @@
 
     <main>
       
-        <section class="section is-large" id="about">
-            <h2 class="title">Large section</h2>
+        <section class="section container" id="about">
+            <h2 class="title">О себе</h2>
             <h3 class="subtitle">
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
             </h3>
+            
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta explicabo fuga ad minus, nihil quo molestiae, tempore mollitia possimus perferendis nesciunt aperiam tenetur, hic dolorum. Hic soluta omnis ex explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum fugit quae quisquam molestias reprehenderit numquam ipsa deserunt corporis molestiae tempora alias placeat voluptas consequuntur, cumque ducimus voluptate, eaque distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptatibus quis rem excepturi incidunt recusandae voluptas dolorem id quas blanditiis consequatur, ipsum officia amet veritatis ratione nisi quaerat debitis reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt sapiente voluptatum reiciendis, maxime delectus vel veniam excepturi. Enim neque laboriosam ut tempore ullam omnis nihil in error vero reprehenderit.</p>
+            <div class="columns is-desktop">
+              <div class="column">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis rem, quos inventore suscipit expedita nisi, fugit quo, eum itaque voluptates cumque. Ipsa enim omnis corrupti, dignissimos perspiciatis excepturi aut?</div>
+              <div class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, harum, quo quasi autem, doloremque illum vero enim minima reprehenderit iusto in quaerat aliquid voluptate quos adipisci sunt! Perspiciatis, quidem incidunt.</div>
+              <div class="column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ea quis, numquam perspiciatis voluptate inventore molestiae dolorem necessitatibus quasi architecto, iusto a explicabo corporis repellat itaque esse perferendis modi nisi.</div>
+              <div class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi incidunt dolor quod, cupiditate, magni corrupti, error aut nemo ullam consequatur hic. Libero commodi, soluta sed voluptatibus sint necessitatibus quisquam quae?</div>
+            </div>
           </section>
 
-          <section class="section is-large" id="hobbies">
-            <h2 class="title">Large section</h2>
+          <section class="section container" id="hobbies">
+            <h2 class="title">Увлечения</h2>
             <h3 class="subtitle">
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
             </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta explicabo fuga ad minus, nihil quo molestiae, tempore mollitia possimus perferendis nesciunt aperiam tenetur, hic dolorum. Hic soluta omnis ex explicabo? Lorem ipsum dolor sit amet </p>
           </section>
 
-          <section class="section is-large" id="material">
+          <section class="section container" id="material">
             <h2 class="title">Large material</h2>
             <h3 class="subtitle">
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
             </h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta explicabo fuga ad minus, nihil quo molestiae, tempore mollitia possimus perferendis nesciunt aperiam tenetur, hic dolorum. Hic soluta omnis ex explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum fugit quae quisquam molestias reprehenderit numquam ipsa deserunt corporis molestiae tempora alias placeat voluptas consequuntur, cumque ducimus voluptate, eaque distinctio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptatibus quis rem excepturi incidunt recusandae voluptas dolorem id quas blanditiis consequatur, ipsum officia amet veritatis ratione nisi quaerat debitis reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt sapiente voluptatum reiciendis, maxime delectus vel veniam excepturi. Enim neque laboriosam ut tempore ullam omnis nihil in error vero reprehenderit.</p>
           </section>
 
-          <section class="section is-large" id="education">
-            <h2 class="title">Large education</h2>
+          <section class="section container" id="education">
+            <h2 class="title">Образование</h2>
             <h3 class="subtitle">
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
             </h3>
           </section>
 
-          <section class="section is-large" id="progress">
-            <h2 class="title">Large progress</h2>
+          <section class="section container" id="progress">
+            <h2 class="title">Достижения</h2>
             <h3 class="subtitle">
               A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
             </h3>
           </section>
-          
     </main>
 
     <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            <strong>&#169;&#160;2022&#160;А.&#160;Мангазеев</strong> <br>
+            <strong>&#169;&#160;2022&#160;А.Ю.&#160;Мангазеев</strong> <br>
             <img src="img/letter.gif" width="13" height="10" alt="конверт"> 
             <a href="mailto:alex3287@bk.ru">alex3287@bk.ru</a>   
           </p>
@@ -147,5 +161,14 @@ $navbarBurgers.forEach( el => {
 
 });
       </script>
+  <!-- Подключаем скрипты -->
+  <script src="js/wow.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script>
+    // инициализация библиотеки WOW
+    new WOW().init();
+
+   
+  </script>
 </body>
 </html>

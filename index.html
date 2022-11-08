@@ -44,7 +44,7 @@
                         О себе
                       </a>
                       <a class="navbar-item" href="#hobbies">
-                        Увлечения
+                        Хобби
                       </a>
                       <a class="navbar-item" href="#material">
                         Наработки
@@ -107,12 +107,34 @@
             
           </section>
 
-          <section class="section container" id="hobbies">
-            <h2 class="title">Увлечения</h2>
-            <h3 class="subtitle">
-              Я конечно же тут расскажу про <strong>пасеку</strong>, также тут будут фотки.
-            </h3>
-            
+          <section class="section container hobby" id="hobbies">
+            <h2 class="title mb-6">Моё Хобби</h2>
+            <p class="subtitle has-text-justified">
+              Лето - время каникул. А для меня лето - это смена рода деятельности. Пчеловодство - моё хобби. Свободное летнее время я посвещаю пчелам. Издревне пчеловодство считалось не только интересным, но и полезным видом деятельности. Неоценимую пользу пчелы приносят окружающей среде.
+            </p>
+            <div class="slider">
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_1.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_2.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_3.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_4.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_5.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="slider_image" src="img/hobby/s_6.jpg" alt=""></div>
+              <!-- /.slider_item -->
+            </div>
+            <!-- /.slider_hobby -->
+            <div class="arrows hobby_arrows">
+              <div class="arrows_left">
+                <img src="img/hobby/left-arrow.png" alt="">
+              </div>
+              <div class="arrows_right">
+                <img src="img/hobby/right-arrow.png" alt="">
+              </div>
+            </div>
           </section>
 
           <section class="section container" id="material">
@@ -187,9 +209,6 @@
 
     </main>
     
-
-
-
     <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -228,10 +247,41 @@ $navbarBurgers.forEach( el => {
   <script>
     // инициализация библиотеки WOW
     new WOW().init();
-
-   
   </script>
+  <!-- Подключаем слайдеры -->
   
-
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        infinite: true,
+        prevArrow: $('.arrows_left'),
+        nextArrow: $('.arrows_right'),
+        responsive: [
+            {
+              breakpoint: 1220,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                
+              }
+            },
+            {
+              breakpoint: 720,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+          
+          ]
+      });
+    });
+  </script>
 </body>
 </html>

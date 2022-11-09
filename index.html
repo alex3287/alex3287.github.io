@@ -98,7 +98,7 @@
               Учителей информатики в школе принято считать самыми продвинутыми специалистами в сфере информационных технологий. Ведь именно мы знакомим детей с устройством компьютера, учим их программировать и обучаем информационным технологиям, объясняем алгоритмы эффективной работы с информацией с помощью электронных помощников. Не секрет, что IT-сфера стремительно развивается, и чтобы учителю быть мастером своего дела, ему необходимо следить за изменениями IT-индустрии.
             </p>
             <p class="subtitle has-text-justified about_text">
-              Как учитель информатики одной из приоритетных задач своей педагогической деятельности считаю – повышение компьютерной грамотности учащихся, развитие навыков эффективной работы с информацией, знакомство с многообразием АйТи – индустрии. Также считаю необходимым показать их практическую значимость этих навыков и умений, поскольку человек, обладающий компьютерной грамотностью, владеющий навыками эффективной работы с информацией, творчески мыслящий способен адаптироваться в постоянно меняющемся современном мире.
+              Как учитель информатики одной из приоритетных задач своей педагогической деятельности считаю – повышение компьютерной грамотности учащихся, развитие навыков эффективной работы с информацией, знакомство с многообразием IT – индустрии. Также считаю необходимым показать их практическую значимость этих навыков и умений, поскольку человек, обладающий компьютерной грамотностью, владеющий навыками эффективной работы с информацией, творчески мыслящий способен адаптироваться в постоянно меняющемся современном мире.
             </p>
             <p class="subtitle has-text-justified about_text">
               Чтобы быть хорошим учителем, нужно не просто идти в ногу со временем, нужно это время немного опережать. Для этого необходимо работать над собой, необходимо каждый день чему-то учиться. Признавая все достоинства традиционных методов и приемов обучения, убежден, что высокое качество образовательного процесса зависит от использования учителем современных образовательных технологий.
@@ -248,9 +248,11 @@
             </div>
           </section>
 
-          <section class="section container content">
+          <section class="section courses container content">
             <h2 class="title mb-6">Курсы повышения квалификации</h2>
-                         
+            <p class="subtitle has-text-justified courses_text">
+              Высоким результатам педагогической деятельности способствует своевременное повышение квалификации, участие в профессиональных конкурсах, семинарах, активное участие в практикумах, семинарах, педагогических советах, проводимых на школьном, городском, областном уровнях.
+            </p>
               <ul class="has-text-justified">
                 <li>2021 г. – обучение в Пизанском университете, г. Пиза, Италия (Università di Pisa) в рамках совместной образовательной программы студенческого обмена в рамках Erasmus+ с применением дистанционных технологий</li>
                 <li>2021 г. – Udemy «C++ GOF Паттерны проектирования»</li>
@@ -271,10 +273,34 @@
 
           <section class="section container" id="progress">
             <h2 class="title mb-6">Достижения</h2>
-            <p class="subtitle has-text-justified hobbies_text">
-              тут все будет
+             <p class="subtitle has-text-justified progress_text mb-6 ">
+              Опыт работы в сфере информационных технологий был представлен на разных уровнях. Регулярно принимаю участия в конкурсах профессионального мастерства. Привлекая учащихся к участию в олимпиадах, стараюсь донести до каждого школьника факт, что олимпиада ни в коей мере не является элитарным мероприятием, что многие задачи олимпиад доступны для понимания каждому школьнику, интересующемуся предметом. 
             </p>
             
+            <div class="slider_portfolio ">
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/1.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/2.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/1.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/3.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/4.jpg" alt=""></div>
+              <!-- /.slider_item -->
+              <div class="slider_item"><img class="portfolio_slider_image" src="img/portfolio/3.jpg" alt=""></div>
+              <!-- /.slider_item -->
+            </div>
+            <!-- /.slider_hobby -->
+            <div class="arrows portfolio_arrows">
+              <div class="portfolio_arrows_left">
+                <img src="img/portfolio/l-a.png" alt="">
+              </div>
+              <div class="portfolio_arrows_right">
+                <img src="img/portfolio/r-a.png" alt="">
+              </div>
+            </div>
+
           </section>
 
     </main>
@@ -318,10 +344,12 @@ $navbarBurgers.forEach( el => {
     // инициализация библиотеки WOW
     new WOW().init();
   </script>
-  <!-- Подключаем слайдеры -->
+  
   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- Подключаем слайдеры --> 
   <script src="js/slick.min.js"></script>
+  <!-- hobby -->
   <script>
     $(document).ready(function(){
       $('.slider').slick({
@@ -338,6 +366,38 @@ $navbarBurgers.forEach( el => {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                
+              }
+            },
+            {
+              breakpoint: 720,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+          
+          ]
+      });
+    });
+  </script>
+  <!-- slider_portfolio -->
+  <script>
+    $(document).ready(function(){
+      $('.slider_portfolio').slick({
+        
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        infinite: true,
+        prevArrow: $('.portfolio_arrows_left'),
+        nextArrow: $('.portfolio_arrows_right'),
+        responsive: [
+            {
+              breakpoint: 1220,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 
               }
             },

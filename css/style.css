@@ -5,18 +5,6 @@
   color: #868b88;
 }
 
-.hobby_arrows {
-  max-width: 120px;
-  margin: auto;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.arrows_left:hover, .arrows_right:hover {
-  cursor: pointer;
-}
-
 .bagraund_nav {
   background: rgba(220, 221, 229, 0.86);
 }
@@ -43,6 +31,18 @@
   text-indent: 50px;
 }
 
+.hobby_arrows {
+  max-width: 120px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows_left:hover, .arrows_right:hover {
+  cursor: pointer;
+}
+
 .about_text {
   text-indent: 50px;
 }
@@ -54,6 +54,31 @@
 .card_first {
   max-width: 320px;
   margin-bottom: 30px;
+}
+
+.courses_text {
+  text-indent: 50px;
+}
+
+.progress_text {
+  text-indent: 50px;
+}
+
+.portfolio_slider_image {
+  margin: auto;
+}
+.portfolio_arrows {
+  max-width: 120px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio_arrows_left:hover, .portfolio_arrows_right:hover {
+  cursor: pointer;
+}
+.portfolio_slider_image {
+  max-width: 320px;
 }
 
 /* Slider */
